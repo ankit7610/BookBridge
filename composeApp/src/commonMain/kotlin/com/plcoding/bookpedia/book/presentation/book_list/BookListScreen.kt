@@ -1,6 +1,8 @@
+
 package com.plcoding.bookpedia.book.presentation.book_list
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -14,7 +16,6 @@ import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Tab
@@ -27,7 +28,6 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -40,11 +40,14 @@ import cmp_bookpedia.composeapp.generated.resources.search_results
 import com.plcoding.bookpedia.book.domain.Book
 import com.plcoding.bookpedia.book.presentation.book_list.components.BookList
 import com.plcoding.bookpedia.book.presentation.book_list.components.BookSearchBar
-import com.plcoding.bookpedia.core.presentation.DarkBlue
-import com.plcoding.bookpedia.core.presentation.DesertWhite
-import com.plcoding.bookpedia.core.presentation.SandYellow
+import com.plcoding.bookpedia.core.presentation.Accent
+import com.plcoding.bookpedia.core.presentation.Background
+import com.plcoding.bookpedia.core.presentation.Primary
+import com.plcoding.bookpedia.core.presentation.PulseAnimation
+import com.plcoding.bookpedia.core.presentation.TextGray
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.viewmodel.koinViewModel
+
 @Composable
 fun BookListScreenRoot(
     viewModel: BookListViewModel = koinViewModel(),
@@ -90,7 +93,7 @@ fun BookListScreen(
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(DarkBlue)
+            .background(Primary)
             .statusBarsPadding(),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
@@ -111,7 +114,7 @@ fun BookListScreen(
             modifier = Modifier
                 .weight(1f)
                 .fillMaxWidth(),
-            color = DesertWhite,
+            color = Background,
             shape = RoundedCornerShape(
                 topStart = 32.dp,
                 topEnd = 32.dp
@@ -126,10 +129,10 @@ fun BookListScreen(
                         .padding(vertical = 12.dp)
                         .widthIn(max = 700.dp)
                         .fillMaxWidth(),
-                    containerColor = DesertWhite,
+                    containerColor = Background,
                     indicator = { tabPositions ->
                         TabRowDefaults.SecondaryIndicator(
-                            color = SandYellow,
+                            color = Accent,
                             modifier = Modifier
                                 .tabIndicatorOffset(tabPositions[state.selectedTabIndex])
                         )
@@ -141,8 +144,8 @@ fun BookListScreen(
                             onAction(BookListAction.OnTabSelected(0))
                         },
                         modifier = Modifier.weight(1f),
-                        selectedContentColor = SandYellow,
-                        unselectedContentColor = Color.Black.copy(alpha = 0.5f)
+                        selectedContentColor = Accent,
+                        unselectedContentColor = TextGray
                     ) {
                         Text(
                             text = stringResource(Res.string.search_results),
@@ -156,8 +159,8 @@ fun BookListScreen(
                             onAction(BookListAction.OnTabSelected(1))
                         },
                         modifier = Modifier.weight(1f),
-                        selectedContentColor = SandYellow,
-                        unselectedContentColor = Color.Black.copy(alpha = 0.5f)
+                        selectedContentColor = Accent,
+                        unselectedContentColor = TextGray
                     ) {
                         Text(
                             text = stringResource(Res.string.favorites),
@@ -181,7 +184,7 @@ fun BookListScreen(
                         when(pageIndex) {
                             0 -> {
                                 if(state.isLoading) {
-                                    CircularProgressIndicator()
+                                    PulseAnimation()
                                 } else {
                                     when {
                                         state.errorMessage != null -> {
@@ -193,12 +196,23 @@ fun BookListScreen(
                                             )
                                         }
                                         state.searchResults.isEmpty() -> {
-                                            Text(
-                                                text = stringResource(Res.string.no_search_results),
-                                                textAlign = TextAlign.Center,
-                                                style = MaterialTheme.typography.headlineSmall,
-                                                color = MaterialTheme.colorScheme.error
-                                            )
+                                            Column(
+                                                horizontalAlignment = Alignment.CenterHorizontally,
+                                                verticalArrangement = Arrangement.Center
+                                            ) {
+                                                Text(
+                                                    text = stringResource(Res.string.no_search_results),
+                                                    textAlign = TextAlign.Center,
+                                                    style = MaterialTheme.typography.headlineSmall,
+                                                    color = TextGray
+                                                )
+                                                Text(
+                                                    text = "Try a different keyword or check your spelling.",
+                                                    textAlign = TextAlign.Center,
+                                                    style = MaterialTheme.typography.bodyLarge,
+                                                    color = TextGray
+                                                )
+                                            }
                                         }
                                         else -> {
                                             BookList(
@@ -215,11 +229,23 @@ fun BookListScreen(
                             }
                             1 -> {
                                 if(state.favoriteBooks.isEmpty()) {
-                                    Text(
-                                        text = stringResource(Res.string.no_favorite_books),
-                                        textAlign = TextAlign.Center,
-                                        style = MaterialTheme.typography.headlineSmall,
-                                    )
+                                    Column(
+                                        horizontalAlignment = Alignment.CenterHorizontally,
+                                        verticalArrangement = Arrangement.Center
+                                    ) {
+                                        Text(
+                                            text = stringResource(Res.string.no_favorite_books),
+                                            textAlign = TextAlign.Center,
+                                            style = MaterialTheme.typography.headlineSmall,
+                                            color = TextGray
+                                        )
+                                        Text(
+                                            text = "You can add books to your favorites from the search results.",
+                                            textAlign = TextAlign.Center,
+                                            style = MaterialTheme.typography.bodyLarge,
+                                            color = TextGray
+                                        )
+                                    }
                                 } else {
                                     BookList(
                                         books = state.favoriteBooks,

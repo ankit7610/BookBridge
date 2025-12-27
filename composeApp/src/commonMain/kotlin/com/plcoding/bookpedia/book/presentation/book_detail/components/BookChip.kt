@@ -13,7 +13,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
-import com.plcoding.bookpedia.core.presentation.LightBlue
+import com.plcoding.bookpedia.core.presentation.LightGray
 
 enum class ChipSize {
     SMALL, REGULAR
@@ -34,7 +34,7 @@ fun BookChip(
                 }
             )
             .clip(RoundedCornerShape(16.dp))
-            .background(LightBlue)
+            .background(LightGray)
             .padding(
                 vertical = 8.dp,
                 horizontal = 12.dp

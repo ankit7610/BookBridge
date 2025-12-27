@@ -2,7 +2,8 @@ package com.plcoding.bookpedia.core.presentation
 
 import androidx.compose.ui.graphics.Color
 
-val DarkBlue = Color(0xFF0B405E)
-val DesertWhite = Color(0xFFF7F7F7)
-val SandYellow = Color(0xFFFFBD64)
-val LightBlue = Color(0xFF9AD9FF)
+val Primary = Color(0xFF007BFF)
+val Background = Color(0xFFF8F9FA)
+val Accent = Color(0xFFFFA500)
+val TextGray = Color(0xFF343A40)
+val LightGray = Color(0xFFF1F3F5)

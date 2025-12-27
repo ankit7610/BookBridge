@@ -14,15 +14,12 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.statusBarsPadding
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Favorite
-import androidx.compose.material.icons.filled.FavoriteBorder
 import androidx.compose.material.icons.outlined.FavoriteBorder
 import androidx.compose.material3.CardDefaults
-import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ElevatedCard
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -46,13 +43,12 @@ import cmp_bookpedia.composeapp.generated.resources.go_back
 import cmp_bookpedia.composeapp.generated.resources.mark_as_favorite
 import cmp_bookpedia.composeapp.generated.resources.remove_from_favorites
 import coil3.compose.rememberAsyncImagePainter
-import com.plcoding.bookpedia.core.presentation.DarkBlue
-import com.plcoding.bookpedia.core.presentation.DesertWhite
+import com.plcoding.bookpedia.core.presentation.Accent
+import com.plcoding.bookpedia.core.presentation.Background
+import com.plcoding.bookpedia.core.presentation.Primary
 import com.plcoding.bookpedia.core.presentation.PulseAnimation
-import com.plcoding.bookpedia.core.presentation.SandYellow
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
-import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @Composable
 fun BlurredImageBackground(
@@ -90,7 +86,7 @@ fun BlurredImageBackground(
                 modifier = Modifier
                     .weight(0.3f)
                     .fillMaxWidth()
-                    .background(DarkBlue)
+                    .background(Primary)
             ) {
                 Image(
                     painter = painter,
@@ -106,7 +102,7 @@ fun BlurredImageBackground(
                 modifier = Modifier
                     .weight(0.7f)
                     .fillMaxWidth()
-                    .background(DesertWhite)
+                    .background(Background)
             )
         }
 
@@ -174,7 +170,7 @@ fun BlurredImageBackground(
                                         .background(
                                             brush = Brush.radialGradient(
                                                 colors = listOf(
-                                                    SandYellow, Color.Transparent
+                                                    Accent, Color.Transparent
                                                 ),
                                                 radius = 70f
                                             )

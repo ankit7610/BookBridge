@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:2:1-26:12
+ADDED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:2:1-26:12
 MERGED from [io.insert-koin:koin-androidx-compose:4.0.0] /Users/ankitkaushik/.gradle/caches/8.9/transforms/57a609e541280454ece7f9e1556128fc/transformed/koin-androidx-compose-4.0.0/AndroidManifest.xml:2:1-7:12
 MERGED from [io.insert-koin:koin-android:4.0.0] /Users/ankitkaushik/.gradle/caches/8.9/transforms/25c7d45dcc418250bd985eaade7ecb61/transformed/koin-android-4.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [io.coil-kt.coil3:coil-compose-android:3.0.0-rc02] /Users/ankitkaushik/.gradle/caches/8.9/transforms/01e48adfe791779f6117f3e5321eb9ce/transformed/coil-compose-release/AndroidManifest.xml:2:1-7:12
@@ -89,20 +89,20 @@ MERGED from [androidx.tracing:tracing:1.0.0] /Users/ankitkaushik/.gradle/caches/
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ankitkaushik/.gradle/caches/8.9/transforms/38f701245934e438dd822c94f8a861b9/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/ankitkaushik/.gradle/caches/8.9/transforms/90a8000f2be2c701a9738560030a6038/transformed/exifinterface-1.3.7/AndroidManifest.xml:17:1-24:12
 	package
-		INJECTED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:2:11-69
+		ADDED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:4:5-67
+ADDED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:4:22-64
+		ADDED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:6:5-24:19
-INJECTED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:6:5-24:19
+ADDED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:6:5-24:19
+INJECTED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:6:5-24:19
 MERGED from [io.insert-koin:koin-android:4.0.0] /Users/ankitkaushik/.gradle/caches/8.9/transforms/25c7d45dcc418250bd985eaade7ecb61/transformed/koin-android-4.0.0/AndroidManifest.xml:7:5-20
 MERGED from [io.insert-koin:koin-android:4.0.0] /Users/ankitkaushik/.gradle/caches/8.9/transforms/25c7d45dcc418250bd985eaade7ecb61/transformed/koin-android-4.0.0/AndroidManifest.xml:7:5-20
 MERGED from [org.jetbrains.compose.components:components-resources-android:1.7.0] /Users/ankitkaushik/.gradle/caches/8.9/transforms/b63bf2fe7819153f06d188747f78c66b/transformed/library-release/AndroidManifest.xml:7:5-14:19
@@ -124,45 +124,45 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] /Users/ankitkaush
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ankitkaushik/.gradle/caches/8.9/transforms/e9fe95d29ad041e27bfcd84b4c6c7909/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ankitkaushik/.gradle/caches/8.9/transforms/e9fe95d29ad041e27bfcd84b4c6c7909/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] /Users/ankitkaushik/.gradle/caches/8.9/transforms/101f9bbf6d23e742ae300dc6556703ec/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:12:9-35
+		ADDED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:10:9-41
+		ADDED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:10:9-38
 	android:roundIcon
-		ADDED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:11:9-54
+		ADDED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:9:9-43
+		ADDED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:8:9-35
+		ADDED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:13:9-72
+		ADDED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:13:9-72
 	android:name
-		ADDED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:7:9-40
+		ADDED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:7:9-40
 activity#com.plcoding.bookpedia.MainActivity
-ADDED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:14:9-23:20
+ADDED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:14:9-23:20
 	android:exported
-		ADDED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:15:13-36
+		ADDED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:15:13-36
 	android:configChanges
-		ADDED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:16:13-225
+		ADDED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:16:13-225
 	android:name
-		ADDED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:17:13-41
+		ADDED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:17:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:18:13-22:29
+ADDED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:19:17-69
+ADDED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:19:25-66
+		ADDED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:21:17-77
+ADDED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:21:27-74
+		ADDED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:21:27-74
 uses-sdk
-INJECTED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml
-INJECTED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml
 MERGED from [io.insert-koin:koin-androidx-compose:4.0.0] /Users/ankitkaushik/.gradle/caches/8.9/transforms/57a609e541280454ece7f9e1556128fc/transformed/koin-androidx-compose-4.0.0/AndroidManifest.xml:5:5-44
 MERGED from [io.insert-koin:koin-androidx-compose:4.0.0] /Users/ankitkaushik/.gradle/caches/8.9/transforms/57a609e541280454ece7f9e1556128fc/transformed/koin-androidx-compose-4.0.0/AndroidManifest.xml:5:5-44
 MERGED from [io.insert-koin:koin-android:4.0.0] /Users/ankitkaushik/.gradle/caches/8.9/transforms/25c7d45dcc418250bd985eaade7ecb61/transformed/koin-android-4.0.0/AndroidManifest.xml:5:5-44
@@ -332,9 +332,9 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ankitkaushik/.grad
 MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/ankitkaushik/.gradle/caches/8.9/transforms/90a8000f2be2c701a9738560030a6038/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/ankitkaushik/.gradle/caches/8.9/transforms/90a8000f2be2c701a9738560030a6038/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
 	android:targetSdkVersion
-		INJECTED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml
 provider#org.jetbrains.compose.resources.AndroidContextProvider
 ADDED from [org.jetbrains.compose.components:components-resources-android:1.7.0] /Users/ankitkaushik/.gradle/caches/8.9/transforms/b63bf2fe7819153f06d188747f78c66b/transformed/library-release/AndroidManifest.xml:8:9-13:20
 	android:enabled
