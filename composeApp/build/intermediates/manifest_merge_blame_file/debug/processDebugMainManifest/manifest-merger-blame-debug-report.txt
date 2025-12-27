@@ -9,8 +9,8 @@
 9        android:targetSdkVersion="35" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:4:5-67
-11-->/Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:4:22-64
+11-->/Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:4:5-67
+11-->/Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:4:22-64
 12
 13    <permission
 13-->[androidx.core:core:1.13.1] /Users/ankitkaushik/.gradle/caches/8.9/transforms/101f9bbf6d23e742ae300dc6556703ec/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
@@ -24,43 +24,43 @@
 17-->[androidx.core:core:1.13.1] /Users/ankitkaushik/.gradle/caches/8.9/transforms/101f9bbf6d23e742ae300dc6556703ec/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->/Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:6:5-24:19
+19-->/Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:6:5-24:19
 20        android:name="com.plcoding.bookpedia.BookApplication"
-20-->/Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:7:9-40
+20-->/Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:7:9-40
 21        android:allowBackup="true"
-21-->/Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:8:9-35
+21-->/Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:8:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 22-->[androidx.core:core:1.13.1] /Users/ankitkaushik/.gradle/caches/8.9/transforms/101f9bbf6d23e742ae300dc6556703ec/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 23        android:debuggable="true"
 24        android:extractNativeLibs="false"
 25        android:icon="@mipmap/ic_launcher"
-25-->/Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:9:9-43
-26        android:label="@string/app_name"
-26-->/Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:10:9-41
+25-->/Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:9:9-43
+26        android:label="CMP-Bookpedia"
+26-->/Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:10:9-38
 27        android:roundIcon="@mipmap/ic_launcher_round"
-27-->/Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:11:9-54
+27-->/Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:11:9-54
 28        android:supportsRtl="true"
-28-->/Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:12:9-35
+28-->/Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:12:9-35
 29        android:testOnly="true"
 30        android:theme="@android:style/Theme.Material.Light.NoActionBar" >
-30-->/Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:13:9-72
+30-->/Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:13:9-72
 31        <activity
-31-->/Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:14:9-23:20
+31-->/Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:14:9-23:20
 32            android:name="com.plcoding.bookpedia.MainActivity"
-32-->/Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:17:13-41
+32-->/Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:17:13-41
 33            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden|mnc|colorMode|density|fontScale|fontWeightAdjustment|keyboard|layoutDirection|locale|mcc|navigation|smallestScreenSize|touchscreen|uiMode"
-33-->/Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:16:13-225
+33-->/Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:16:13-225
 34            android:exported="true" >
-34-->/Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:15:13-36
+34-->/Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:15:13-36
 35            <intent-filter>
-35-->/Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:18:13-22:29
+35-->/Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:18:13-22:29
 36                <action android:name="android.intent.action.MAIN" />
-36-->/Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:19:17-69
-36-->/Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:19:25-66
+36-->/Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:19:17-69
+36-->/Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:19:25-66
 37
 38                <category android:name="android.intent.category.LAUNCHER" />
-38-->/Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:21:17-77
-38-->/Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/AndroidManifest.xml:21:27-74
+38-->/Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:21:17-77
+38-->/Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/AndroidManifest.xml:21:27-74
 39            </intent-filter>
 40        </activity>
 41

@@ -3,7 +3,6 @@
 package com.plcoding.bookpedia.book.presentation.book_detail
 
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -11,7 +10,6 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.layout.wrapContentSize
 import androidx.compose.foundation.rememberScrollState
@@ -26,7 +24,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -40,7 +37,8 @@ import com.plcoding.bookpedia.book.presentation.book_detail.components.BlurredIm
 import com.plcoding.bookpedia.book.presentation.book_detail.components.BookChip
 import com.plcoding.bookpedia.book.presentation.book_detail.components.ChipSize
 import com.plcoding.bookpedia.book.presentation.book_detail.components.TitledContent
-import com.plcoding.bookpedia.core.presentation.SandYellow
+import com.plcoding.bookpedia.core.presentation.Accent
+import com.plcoding.bookpedia.core.presentation.TextGray
 import org.jetbrains.compose.resources.stringResource
 import kotlin.math.round
 
@@ -94,12 +92,14 @@ private fun BookDetailScreen(
                 Text(
                     text = state.book.title,
                     style = MaterialTheme.typography.headlineSmall,
-                    textAlign = TextAlign.Center
+                    textAlign = TextAlign.Center,
+                    color = TextGray
                 )
                 Text(
                     text = state.book.authors.joinToString(),
                     style = MaterialTheme.typography.titleMedium,
-                    textAlign = TextAlign.Center
+                    textAlign = TextAlign.Center,
+                    color = TextGray
                 )
                 Row(
                     modifier = Modifier
@@ -112,12 +112,13 @@ private fun BookDetailScreen(
                         ) {
                             BookChip {
                                 Text(
-                                    text = "${round(rating * 10) / 10.0}"
+                                    text = "${round(rating * 10) / 10.0}",
+                                    color = TextGray
                                 )
                                 Icon(
                                     imageVector = Icons.Default.Star,
                                     contentDescription = null,
-                                    tint = SandYellow
+                                    tint = Accent
                                 )
                             }
                         }
@@ -127,7 +128,10 @@ private fun BookDetailScreen(
                             title = stringResource(Res.string.pages),
                         ) {
                             BookChip {
-                                Text(text = pageCount.toString())
+                                Text(
+                                    text = pageCount.toString(),
+                                    color = TextGray
+                                )
                             }
                         }
                     }
@@ -149,7 +153,8 @@ private fun BookDetailScreen(
                                 ) {
                                     Text(
                                         text = language.uppercase(),
-                                        style = MaterialTheme.typography.bodyMedium
+                                        style = MaterialTheme.typography.bodyMedium,
+                                        color = TextGray
                                     )
                                 }
                             }
@@ -165,7 +170,8 @@ private fun BookDetailScreen(
                         .padding(
                             top = 24.dp,
                             bottom = 8.dp
-                        )
+                        ),
+                    color = TextGray
                 )
                 if(state.isLoading) {
                     CircularProgressIndicator()
@@ -178,9 +184,7 @@ private fun BookDetailScreen(
                         },
                         style = MaterialTheme.typography.bodyMedium,
                         textAlign = TextAlign.Justify,
-                        color = if(state.book.description.isNullOrBlank()) {
-                            Color.Black.copy(alpha = 0.4f)
-                        } else Color.Black,
+                        color = TextGray,
                         modifier = Modifier
                             .padding(vertical = 8.dp)
                     )

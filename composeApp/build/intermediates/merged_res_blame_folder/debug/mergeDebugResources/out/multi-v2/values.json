@@ -40,6 +40,23 @@
                     }
                 },
                 {
+                    "source": "/Users/ankitkaushik/Desktop/BookBridge/composeApp/src/androidMain/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "50",
+                        "endOffsets": "62"
+                    },
+                    "to": {
+                        "startLines": "311",
+                        "startColumns": "4",
+                        "startOffsets": "20184",
+                        "endColumns": "50",
+                        "endOffsets": "20230"
+                    }
+                },
+                {
                     "source": "/Users/ankitkaushik/.gradle/caches/8.9/transforms/ffadf57904fb6015cbfc227528fb9a5f/transformed/activity-1.9.3/res/values/values.xml",
                     "from": {
                         "startLines": "2,3",
@@ -270,23 +287,6 @@
                         "endLines": "235,237,238,241,243,276,319,320,321,322,323,324,325,387,388,389,390,392,393,394,395,397,398,399,1492,1508,1512",
                         "endColumns": "73,57,54,50,54,52,64,53,65,100,57,51,59,61,53,49,53,45,45,41,39,46,35,89,12,12,12",
                         "endOffsets": "15709,15818,15873,16047,16136,17844,20806,20860,20926,21027,21085,21137,21197,25700,25754,25804,25858,25957,26003,26045,26085,26203,26239,26329,95992,96971,97166"
-                    }
-                },
-                {
-                    "source": "/Users/ankitkaushik/Desktop/CMP-Bookpedia-master/composeApp/src/androidMain/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "50",
-                        "endOffsets": "62"
-                    },
-                    "to": {
-                        "startLines": "311",
-                        "startColumns": "4",
-                        "startOffsets": "20184",
-                        "endColumns": "50",
-                        "endOffsets": "20230"
                     }
                 },
                 {
